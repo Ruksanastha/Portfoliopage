@@ -11,7 +11,7 @@ import { FaGithub } from "react-icons/fa";
 
 const Service = () => {
   return (
-    <div className="background-to flex  justify-center">
+    <div className="background-to flex  justify-center pb-8">
       <div className="flex flex-col   ">
         <h2 className="font-bold text-4xl    mx-4 mb-10  flex justify-center mt-7">
           Skills

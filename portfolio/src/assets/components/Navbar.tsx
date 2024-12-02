@@ -39,7 +39,7 @@ const Navbar: React.FC<Props> = ({ openNav }) => {
       }`}
     >
       <h1 className="font-bold  flex items-center mx-12 text-3xl">
-        Web <span className="text-yellow-300">Dev</span>
+        Web <span className="text-teal-900">Dev</span>
       </h1>
       <div className="md:flex md:items-center">
         <ul className="flex space-x-6 pr-9">
@@ -69,7 +69,7 @@ const Navbar: React.FC<Props> = ({ openNav }) => {
       <div onClick={openNav}>
         <FaBars />
       </div>
-      <button id="theme-switch" onClick={toggleDarkMode}>
+      <button id="theme-switch" onClick={toggleDarkMode} className="text-white">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           height="24px"

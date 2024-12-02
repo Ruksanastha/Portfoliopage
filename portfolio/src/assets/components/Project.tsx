@@ -24,7 +24,7 @@ const ProjectsSection = () => {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="bg-zinc-800 shadow-md rounded-lg p-5  transition-shadow hover:-translate-y-4 hover:shadow-[10px_0px_15px_-5px_rgba(255,255,0,0.7)]"
+              className="bg-zinc-800 shadow-md rounded-lg p-5 transition-transform transform hover:-translate-y-4 hover:ring-4 hover:ring-teal-500 hover:shadow-[15px_15px_30px_-5px_rgba(19,78,74,0.9)]"
             >
               <h3 className="text-xl font-semibold mb-3 text-white">
                 {project.title}
